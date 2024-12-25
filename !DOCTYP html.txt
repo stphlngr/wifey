@@ -1,0 +1,37 @@
+<wifeys html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video and Image Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Video and Image Page</h1>
+    </header>
+
+    <main>
+        <div class="media-container">
+            <!-- Video Section -->
+            <div class="video-container">
+                <h2>Watch the Video</h2>
+                <video width="400" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Image Section -->
+            <div class="image-container">
+                <h2>Image Gallery</h2>
+                <img src="image.jpg" alt="Beautiful Landscape" width="400">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 My Website</p>
+    </footer>
+</body>
+</html>
